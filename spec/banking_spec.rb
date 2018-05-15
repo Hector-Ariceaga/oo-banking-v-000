@@ -1,6 +1,6 @@
 require_relative 'spec_helper.rb'
 
-describe 'BankAccount' do
+describe BankAccount do
 
   let(:avi) { BankAccount.new("Avi") }
 
