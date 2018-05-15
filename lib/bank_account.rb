@@ -9,7 +9,7 @@ class BankAccount
   end
   
   def deposit(amount)
-    deposit += 1000
+    amount += 1000
   end
   
 end
