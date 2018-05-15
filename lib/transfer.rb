@@ -2,7 +2,7 @@ class Transfer
   # your code here
   attr_accessor :sender, :receiver, :status
   
-  def intialize(amount)
+  def initialize(amount)
     @status = 'pending'
     @amount = amount
   end
