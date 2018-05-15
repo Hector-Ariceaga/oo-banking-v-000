@@ -19,12 +19,5 @@ class Transfer
       return "Transaction rejection. Please check your acouunt balance."
     end
   end
-      @status != 'complete'
-      sender.balance -= self.amount
-      receiver.balance += self.amount
-      @status = 'complete'
-    else 
-       
-    end
-  end
+      
 end
