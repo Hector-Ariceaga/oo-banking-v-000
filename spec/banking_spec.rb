@@ -1,4 +1,6 @@
-describe "BankAccount" do
+require_relative 'spec_helper.rb'
+
+describe 'BankAccount' do
 
   let(:avi) { BankAccount.new("Avi") }
 
@@ -21,7 +23,7 @@ describe "BankAccount" do
       end
 
       it "can't change its name" do
-        expect { avi.name = "Bob" }.to raise_error
+        expect { avi.name = "Bob" }.to raise_error('NameError')
       end
     end
   end
