@@ -14,9 +14,9 @@ class Transfer
   end
     
   def execute_transaction
-    if self.valid?.equal?(false) 
+    if self.valid?
       @status = 'rejected'
-      return "Transaction rejection. Please check your acouunt balance."
+      puts "Transaction rejection. Please check your acouunt balance."
     end
   end
       
