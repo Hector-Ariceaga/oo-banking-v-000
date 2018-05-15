@@ -17,6 +17,6 @@ class BankAccount
   end
   
   def valid?
-    self.status.equals?('open') && @balance > 0
+    self.status.equal?('open') && @balance > 0
   end
 end
